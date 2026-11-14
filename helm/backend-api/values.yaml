@@ -1,5 +1,5 @@
 image:
-  name: andreykapturin/todo-back:latest
+  name: 393840684013.dkr.ecr.eu-central-1.amazonaws.com/backend:sha-bffdf73dda7b0bc7ba35666b6cf34a0ecaa42af9
 
 backend:
   port: 3000
@@ -14,9 +14,6 @@ resources:
 
 config:
   NODE_ENV: "production"
-  DB_HOST: "postgres"
-  DB_PORT: 5432
-  DB_NAME: "todos"
 
 ingress:
   host: aws.andreykapturin.site
